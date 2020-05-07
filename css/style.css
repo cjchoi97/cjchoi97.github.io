@@ -430,6 +430,11 @@ a:hover, a:active, a:focus {
   top: -10px;
 }
 
+/* #about .team-thumb:hover .image-holder .img-circle {
+  border-radius: 0%;
+  transition-duration: 0.3s;
+} */
+
 #about .team-thumb .description {
   font-size: 18px;
   width: 80%;
@@ -455,8 +460,20 @@ a:hover, a:active, a:focus {
 
 .img-circle {
   height: 225px;
+  /* transition-duration: 0.3s; */
 }
 
+.ghi {
+  border-radius: 0%;
+}
+
+.binghamton {
+  height: 245px;
+}
+
+.bing-holder {
+  margin-top: -22px;
+}
 
 
 /*---------------------------------------
