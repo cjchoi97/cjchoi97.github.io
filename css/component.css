@@ -5,7 +5,7 @@
 }
 
 .grid li {
-	display: inline-block;
+	display: block;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -122,8 +122,114 @@
 
 .cs-style-4 figcaption a {
 	position: absolute;
+	/* bottom: 20px;
+	right: 20px; */
+}
+
+#github-link {
 	bottom: 20px;
-	right: 20px;
+	left: 80px;
+	background: none;
+	border: 1px solid #e44c65;
+	transition-duration: 0.3s;
+}
+#github-link:hover {
+	transition-duration: 0.3s;
+	background: #e44c65;
+}
+
+#live-link {
+	bottom: 20px;
+	left: 20px;
+	background: none;
+	border: 1px solid #e44c65;
+	transition-duration: 0.3s;
+}
+
+#live-link:hover {
+	transition-duration: 0.3s;
+	background: #e44c65;
+}
+
+#project-title {
+	letter-spacing: 7px;
+}
+
+.background {
+	font-size: 17px;
+}
+
+#github-icon {
+	display: none;
+}
+
+#live-icon {
+	display: none;
+}
+
+@media only screen and (min-width: 505px) {
+	.grid {
+		margin-left: -40px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #project-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+	#project-title {
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: 5px;
+	}
+
+	#github-link {
+		display: none;
+	}
+
+	#live-link {
+		display: none;
+	}
+
+	#github-icon {
+		display: block;
+		bottom: 10px;
+		left: 60px;
+		background: none;
+		font-size: 20px;
+		padding: 0;
+		transition-duration: 0.3s;
+	}
+
+	#github-icon:hover {
+		color: #e44c65;
+		transition-duration: 0.3s;
+	}
+
+	#live-icon {
+		display: block;
+		bottom: 10px;
+		left: 20px;
+		background: none;
+		font-size: 20px;
+		padding: 0;
+		transition-duration: 0.3s;
+
+	}
+
+	#live-icon:hover{
+		color: #e44c65;
+		transition-duration: 0.3s;
+	}
+	
+
+	.grid figcaption small {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
 }
 
 @media (max-width: 980px) {

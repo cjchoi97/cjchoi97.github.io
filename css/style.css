@@ -460,6 +460,7 @@ a:hover, a:active, a:focus {
 
 .img-circle {
   height: 225px;
+  width: 225px;
   /* transition-duration: 0.3s; */
 }
 
@@ -477,7 +478,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Galllery section              
+    Gallery section              
 -----------------------------------------*/
 
 #gallery {
@@ -623,6 +624,9 @@ footer {
   color: #ffffff;
 }
 
+/*---------------------------------------
+   Responsiveness
+---------------------------------------*/
 
 
 /*---------------------------------------
@@ -658,6 +662,7 @@ footer {
     position: relative;
     top: 0;
     left: 0;
+    margin: 0 auto;
   }
 
 }
