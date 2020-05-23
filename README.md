@@ -2,4 +2,4 @@
 
 This is my portfolio site!
 
-Link: [Portfolio](cjchoi97.github.io)
+Link: [Portfolio](https://cjchoi97.github.io/)
