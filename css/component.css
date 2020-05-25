@@ -185,14 +185,99 @@
 	align-items: center;
 }
 
+.skills-list:hover p{
+	color: lightgray;
+}
+
+.skills-list:hover i {
+	color: lightgray;
+	transition-duration: 0.3s;
+}
+
 .skills-list section p {
-	color: transparent;
+	color: #304352;
 	transition-duration: 0.3s;
 }
 
 .skills-list section:hover p {
 	/* display: block; */
 	color: #304352;
+	transition-duration: 0.3s;
+}
+
+.skills-list section:hover .aws {
+	color: #F7A80D;
+}	
+
+.skills-list section:hover .css3 {
+	color: #3d8fc6;
+}	
+
+.skills-list section:hover .express {
+	color: #444;
+}	
+
+.skills-list section:hover .git {
+	color: #f34f29;
+}	
+
+.skills-list section:hover .github {
+	color: #181616;
+}	
+
+.skills-list section:hover .heroku {
+	color: #6762a6;
+}	
+
+.skills-list section:hover .html5 {
+	color: #e54d26;
+}	
+
+.skills-list section:hover .js {
+	color: #f0db4f;
+}	
+
+.skills-list section:hover .jq {
+	color: #0769ad;
+}	
+
+.skills-list section:hover .mongo {
+	color: #4FAA41;
+}	
+
+.skills-list section:hover .node {
+	color: #4FAA41;
+}	
+
+.skills-list section:hover .rails {
+	color: #a62c46;
+}	
+
+.skills-list section:hover .react {
+	color: #61dafb;
+}	
+
+.skills-list section:hover .ruby {
+	color: #d91404;
+}	
+
+.skills-list section:hover .vs {
+	color: #68217A;
+}	
+
+.skills-list section:hover .webpack {
+	color: #1C78C0;
+}	
+
+.skills-list section:hover .post {
+	color: #336791;
+}	
+
+.skills-list section:hover .c {
+	color: #9c033a;
+}	
+
+.skills-list i {
 	transition-duration: 0.3s;
 }
 
