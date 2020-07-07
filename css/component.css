@@ -126,6 +126,29 @@
 	right: 20px; */
 }
 
+#get-in-touch {
+	margin-right: 20px;
+	background: none;
+	border: 1px solid #e44c65;
+	transition-duration: 0.3s;
+}
+
+#get-in-touch:hover {
+	transition-duration: 0.3s;
+	background: #e44c65;
+}
+
+#learn-more {
+	background: none;
+	border: 1px solid #e44c65;
+	transition-duration: 0.3s;
+}
+
+#learn-more:hover {
+	transition-duration: 0.3s;
+	background: #e44c65;
+}
+
 #github-link {
 	bottom: 20px;
 	left: 80px;
@@ -167,17 +190,32 @@
 	display: none;
 }
 
+.navbar-header .fab {
+	padding: 15px 10px;
+	font-size: 21px;
+	color: #304352;
+	cursor: pointer;
+}
+
+.navbar-header .fab:hover {
+	color: #e44c65;
+}
+
+.navbar .container {
+	width: 100%;
+}
+
 .skills-list {
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	height: 450px;
+	justify-content: space-between;
+	height: 100%;
 }
 
 .skills-list section {
-	width: 15%;
-	height: 33%;
+	width: 170px;
+	height: 150px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -347,6 +385,30 @@
 	.grid figcaption small {
 		font-size: 14px;
 		letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.skills-list section {
+		width: 140px
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.skills-list section {
+		width: 151px
+	}
+}
+
+@media (max-width: 767px) and (min-width: 680px) {
+	.skills-list section {
+		width: 193px
+	}
+}
+
+@media (max-width: 509px) and (min-width: 450px) {
+	.skills-list section {
+		width: 150px
 	}
 }
 

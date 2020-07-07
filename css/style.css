@@ -384,7 +384,7 @@ a:hover, a:active, a:focus {
   border: 8px solid #ffffff;
   position: absolute;
   left: -120px;
-  bottom: -325px;
+  bottom: -390px;
   padding: 12px;
 }
 
@@ -459,9 +459,14 @@ a:hover, a:active, a:focus {
 }
 
 .img-circle {
-  height: 225px;
-  width: 225px;
+  height: 215px;
+  width: 215px;
   /* transition-duration: 0.3s; */
+}
+
+#headshot {
+  height: 250px;
+  width: 250px;
 }
 
 .ghi {
@@ -571,6 +576,16 @@ footer {
   padding: 0;
   margin: 0;
 }
+.social-icon.top {
+  margin-top: 30px;
+}
+
+.social-icon.top li a {
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+
+}
 
 .social-icon li {
   list-style: none;
@@ -585,7 +600,10 @@ footer {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px 10px 42px 10px;
   padding: 0px;
 }
@@ -643,6 +661,18 @@ footer {
     margin-top: 32px;
   }
 
+}
+
+@media (max-width: 991px) {
+  #about .about-img img {
+    bottom: -532px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #about .about-img img {
+    bottom: -420px;
+  }
 }
 
 
