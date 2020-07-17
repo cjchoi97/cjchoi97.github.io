@@ -64,6 +64,10 @@ p {
   line-height: 34px;
 }
 
+.grid figcaption p {
+  line-height: 25px;
+}
+
 #home p,
 #contact p, footer p {
   color: #f9f9f9;

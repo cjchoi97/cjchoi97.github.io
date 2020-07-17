@@ -2,7 +2,12 @@
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+} 
+
+.grid .logo-container {
+	width: 40%;
 }
+
 
 .grid li {
 	display: block;
@@ -10,11 +15,14 @@
 	padding: 20px;
 	text-align: left;
 	position: relative;
+	width: 100%;
+	display: flex;
 }
 
 .grid figure {
 	margin: 0;
 	position: relative;
+	width: 60%;
 }
 
 .grid figure img {
@@ -36,16 +44,17 @@
 }
 
 .grid figcaption h1 {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: 2.2rem;
 	margin: 0;
 	padding-bottom: 12px;
 	color: #fff;
 }
 
-.grid figcaption small {
-	font-size: 16px;
+.grid figcaption p {
+	font-size: 20px;
 	letter-spacing: 1px;
+	color: #e44c65;
 }
 
 .grid figcaption a {
@@ -56,6 +65,33 @@
 	background: #e44c65;
 	color: #fff;
 }
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 
+.chillify-logo img {
+	height: 30%;
+}
+
+.fit-challenger {
+	height: 480px;
+	margin-top: 50px;
+}
+
+.fit-logo img {
+	height: 60%;
+}
+
+.celestial {
+	height: 480px;
+}
+
+.celestial-logo img {
+	height: 100%
+} */
 
 /* Caption Style 4 */
 .cs-style-4 li {
@@ -382,9 +418,32 @@
 	}
 	
 
-	.grid figcaption small {
+	.grid figcaption p {
 		font-size: 14px;
 		letter-spacing: 1px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.chillify-logo img {
+		height: 30%;
+	}
+
+	.fit-challenger {
+		height: 480px;
+		margin-top: 50px;
+	}
+
+	.fit-logo img {
+		height: 60%;
+	}
+
+	.celestial {
+		height: 480px;
+	}
+
+	.celestial-logo img {
+		height: 88%
 	}
 }
 
@@ -392,17 +451,79 @@
 	.skills-list section {
 		width: 140px
 	}
+
+	.chillify {
+		height: 402px;
+	}
+
+	.chillify-logo img {
+		height: 30%;
+	}
+
+	.fit-challenger {
+		height: 402px;
+	}
+
+	.fit-logo img {
+		height: 60%;
+	}
+
+	.celestial {
+		height: 402px;
+	}
+
+	.celestial-logo img {
+		height: 88%
+	}
+
+	.grid figcaption p {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
 	.skills-list section {
 		width: 151px
 	}
+
+	.chillify {
+		height: 316px;
+	}
+
+	.chillify-logo img {
+		height: 30%;
+	}
+
+	.fit-challenger {
+		height: 316px;
+	}
+
+	.fit-logo img {
+		height: 60%;
+	}
+
+	.celestial {
+		height: 316px;
+	}
+
+	.celestial-logo img {
+		height: 88%
+	}
 }
 
 @media (max-width: 767px) and (min-width: 680px) {
 	.skills-list section {
 		width: 193px
+	}
+}
+
+@media (max-width: 767px) {
+	.grid .logo-container {
+		display: none;
+	}
+
+	.grid figure {
+		width: 100%;
 	}
 }
 
@@ -415,7 +536,7 @@
 @media (max-width: 980px) {
 	.grid figcaption h1 {
 		font-size: 1rem;
-		line-height: 1.6rem;
+		line-height: 2.6rem;
 	}
 	.grid figcaption {
 		padding: 22px 18px;
@@ -429,5 +550,14 @@
 	.grid li {
 		width: 100%;
 		min-width: 300px;
+	}
+}
+
+@media(max-width: 767px) {
+	.grid figcaption h1 {
+		font-size: 30px;
+	}
+	.grid figcaption p {
+
 	}
 }
