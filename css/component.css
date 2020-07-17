@@ -57,6 +57,14 @@
 	color: #e44c65;
 }
 
+.grid figcaption .technologies{
+	margin-top: 50px;
+}
+
+.grid figcaption .technologies i {
+	font-size: 38px;
+}
+
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 10px;
@@ -71,27 +79,6 @@
 	justify-content: center;
 	align-items: center;
 }
-/* 
-.chillify-logo img {
-	height: 30%;
-}
-
-.fit-challenger {
-	height: 480px;
-	margin-top: 50px;
-}
-
-.fit-logo img {
-	height: 60%;
-}
-
-.celestial {
-	height: 480px;
-}
-
-.celestial-logo img {
-	height: 100%
-} */
 
 /* Caption Style 4 */
 .cs-style-4 li {
@@ -476,8 +463,20 @@
 		height: 88%
 	}
 
+	.grid figcaption h1 {
+		line-height: 1.6rem;
+	}
+
 	.grid figcaption p {
 		font-size: 15px;
+	}
+
+	.grid figcaption .technologies {
+		margin-top: 25px;
+	}
+
+	.grid figcaption .technologies i {
+		font-size: 31px;
 	}
 }
 
@@ -508,6 +507,18 @@
 
 	.celestial-logo img {
 		height: 88%
+	}
+
+	.grid figcaption #script {
+		line-height: 20px;
+	}
+
+	.grid figcaption .technologies {
+		margin-top: 20px;
+	}
+
+	.grid figcaption .technologies i {
+		font-size: 22px;
 	}
 }
 
@@ -560,4 +571,8 @@
 	.grid figcaption p {
 
 	}
+}
+
+@media (max-width: 679px) {
+
 }
