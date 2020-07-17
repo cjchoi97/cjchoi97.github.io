@@ -346,6 +346,10 @@
 	font-size: 80px;
 }
 
+#small-script {
+	display: none;
+}
+
 @media only screen and (min-width: 505px) {
 	.grid {
 		margin-left: -40px;
@@ -514,11 +518,11 @@
 	}
 
 	.grid figcaption .technologies {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.grid figcaption .technologies i {
-		font-size: 22px;
+		font-size: 20px;
 	}
 }
 
@@ -564,15 +568,134 @@
 	}
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) and (min-width: 600px) {
 	.grid figcaption h1 {
 		font-size: 30px;
 	}
-	.grid figcaption p {
+}
 
+@media (max-width: 677px) and (min-width: 566px) {
+	.grid figcaption .technologies i {
+		font-size: 30px;
 	}
 }
 
-@media (max-width: 679px) {
+@media (max-width: 608px) {
+	.grid figcaption .technologies {
+		margin-top: 20px;
+	}
+}
 
+@media (max-width: 599px) and (min-width: 321px) {
+	.grid figcaption h1 {
+		font-size: 20px;
+	}
+
+	.grid figcaption p {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 565px) and (min-width: 521px) {
+	.grid figcaption .technologies i {
+		font-size: 25px;
+	}
+
+	.grid figcaption .technologies {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 451px) and (max-width: 520px) {
+	.grid figcaption .technologies {
+		margin-top: 5px;
+	}
+
+	.grid figcaption .technologies i {
+		font-size: 20px;
+	}
+
+	.grid figcaption h1 {
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	.grid figcaption #script {
+		font-size: 15px;
+		line-height: 16px;
+	}
+}
+
+@media (min-width: 381px) and (max-width: 450px) {
+	.grid figcaption .technologies {
+		display: none;
+	}
+	
+	.grid figcaption h1 {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.grid figcaption #script {
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
+
+@media (max-width: 380px){
+	.grid figcaption .technologies {
+		display: none;
+	}
+
+	.grid figcaption h1 {
+		font-size: 8px;
+		line-height: 15px;
+	}
+
+	.grid figcaption #script {
+		display: none;
+	}
+
+	#small-script {
+		display: block;
+		font-size: 12px;
+	}
+
+	#github-link {
+		display: none;
+	}
+
+	#live-link {
+		display: none;
+	}
+
+	#github-icon {
+		display: block;
+		bottom: 10px;
+    left: 60px;
+    background: none;
+    font-size: 20px;
+    padding: 0;
+    transition-duration: 0.3s;
+	}
+
+	#github-icon:hover {
+		color: #e44c65;
+		transition-duration: 0.3s;
+	}
+
+	#live-icon {
+		display: block;
+		bottom: 10px;
+    left: 20px;
+    background: none;
+    font-size: 20px;
+    padding: 0;
+    transition-duration: 0.3s;
+	}
+
+	#live-icon:hover {
+		color: #e44c65;
+		transition-duration: 0.3s;
+	}
 }
