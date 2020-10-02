@@ -256,13 +256,24 @@
 }
 
 .skills-list section p {
-	color: #304352;
+	/* color: #304352; */
+	/* display: none; */
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
 	transition-duration: 0.3s;
 }
 
 .skills-list section:hover p {
-	/* display: block; */
+	visibility: visible;
+	opacity: 1;
 	color: #304352;
+	transition-duration: 0.3s;
+}
+
+.skills-list section:hover i {
+	margin-bottom: 20px;
 	transition-duration: 0.3s;
 }
 
@@ -338,7 +349,7 @@
 	color: #9c033a;
 }	
 
-.skills-list i {
+.skills-list section i {
 	transition-duration: 0.3s;
 }
 
