@@ -297,8 +297,8 @@
 	color: #181616;
 }	
 
-.skills-list section:hover .heroku {
-	color: #6762a6;
+.skills-list section:hover .python {
+	color: #ffd845;
 }	
 
 .skills-list section:hover .html5 {
@@ -313,8 +313,8 @@
 	color: #0769ad;
 }	
 
-.skills-list section:hover .mongo {
-	color: #4FAA41;
+.skills-list section:hover .sql {
+	color: #005ba1;
 }	
 
 .skills-list section:hover .node {
